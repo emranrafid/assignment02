@@ -11,6 +11,8 @@ body {
 .nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -108,7 +110,8 @@ header {}
 .header-img {
     width: 90%;
 }
-.play-game{
+
+.play-game {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -122,10 +125,85 @@ header {}
 
 }
 
-.play-game p {
+.play-game p, .instantly-desc{
     color: #534C64;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 
+}
+
+.card-info {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.img-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+
+
+}
+
+.card-img {
+    width: 230px;
+}
+
+.card-img:hover {
+    opacity: 0.3;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-instant-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.instantly-desc{
+    text-align: right;
+}
+.ply-instant{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 75px;
+}
+
+.small-img{
+    position: relative;
+    bottom: 100px;
+    width: 35%;
+    margin-bottom: 0;
+}
+.big-img{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 35px;
+}
+
+.instant-img{
+    max-width: 50%;
+}
+.instant-info{
+    max-width: 50%;
 }
