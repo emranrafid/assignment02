@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo {
+    width: 180px;
+}
+
+.nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.nav-menu a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Followa {
+    margin-right: 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 20px;
+}
+
+.img-btn {
+    width: 20px;
+    margin-top: 5px;
+}
+
+/* header section style started */
+header {}
+
+.headline {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.goat {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-info ul li {
+    list-style: none;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-1 {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 5px;
+}
+
+.btn-2 {
+    border-radius: 48px;
+    background: #4EC5F7;
+    ;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 35px;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+.header-img {
+    width: 90%;
+}
+.play-game{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.play-game h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+
+.play-game p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
